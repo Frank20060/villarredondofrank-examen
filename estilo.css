@@ -1,0 +1,131 @@
+
+
+/*     Header     */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+
+    display: flex;
+    align-items: center;
+}
+.logo>img{
+    height: 21px;
+    width: 21px;
+}
+
+.logo>h1{
+
+    font-size: 21px;
+    font-family: Poppins;
+    padding-left: 10px;
+    color: #285E67;
+}
+
+header>nav>ul{
+    display: flex;
+    
+
+}
+header>nav>ul>li{
+
+    list-style: none;
+}
+header>nav>ul>li>a{
+
+    color:#2B2B2B;
+    text-decoration: none;
+    padding-right: 100px;
+    font-family: Poppins;
+    font-size: 16px;
+}
+
+
+
+/*   Main   */
+
+
+
+.main1{
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.main1>h1{
+    font-size: 65px;
+    font-family: Poppins;
+    color: #2A2A2A;
+
+}
+.main1>p{
+    font-size: 16px;
+    font-family: Poppins;
+    color: #2A2A2A;
+}
+
+.main1>button{
+
+    width: 250px;
+    height: 56px;
+    background-color: #285E67;
+    font-size: 21px;
+    font-family: Poppins;
+    color: #FFFFFF;    
+    border-radius: 65px;
+
+}
+
+
+.mainfotos{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.mainfotos>img{
+
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 644px;
+    height: 391px;
+
+}
+
+
+.main2{     /*Hacerlo mas pequeño de los lados */
+    
+    display: flex;
+    justify-content: center;
+    background-color: #F4F4F4;
+    
+}
+
+.main21{
+
+    display: block;
+    width: 550px;
+    align-items: center;  
+    justify-content: center; 
+
+
+}
+.main21>div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.main21>div>div{
+    padding: 20px;
+    width: 260px;
+
+}
+.main21>div>div>p{
+    font-size: 16px;
+    font-family: Poppins;
+
+}
